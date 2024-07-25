@@ -41,3 +41,6 @@ dnf -y install libXrandr-devel
 dnf -y install alsa-lib-devel
 # fix xlocale
 ln -s /usr/include/locale.h /usr/include/xlocale.h
+# install lib -lbluetooth 
+dnf install bluez-libs
+/usr/lib64/libbluetooth.so.3

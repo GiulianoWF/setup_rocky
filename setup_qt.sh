@@ -10,4 +10,5 @@ dnf -y install qt5-qtwebkit
 #dnf install qt5-qtwebkit-dev
 dnf -y install qt5-qtwebengine-devtools
 dnf -y install qt5-qtwebengine-devel
+dnf -y install qt5-qtwebkit-devel
 
