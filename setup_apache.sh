@@ -58,4 +58,8 @@ else
     exit 1
 fi
 
+# SELinux will not let the fusion-app-bootstraper connect to apache. The simple solution is to disable it
+setenforce 0
+sed -i 's/SELINUX=enforcing/SELINUX=disabled/' /etc/selinux/config
+
 echo "Full Apache configuration for Fusion completed."
