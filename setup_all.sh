@@ -9,3 +9,4 @@ bash setup_psql.sh
 bash setup_xerces.sh
 bash setup_libusb-v1.sh
 bash setup_apache.sh
+bash setup_database-migrations.sh
